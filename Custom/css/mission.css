@@ -1,0 +1,403 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: calc(0.75em + .9vmin);
+}
+
+.purpose_background {
+    width: 100%;
+    padding: 5%;
+    background-color: #EEEEEE;
+}
+
+.why-here {
+    width: 100%;
+
+}
+
+.title-block {
+    text-align: center;
+    padding: 5%;
+}
+
+.purpose_background2 {
+
+    padding: 5%;
+    width: 100%;
+}
+
+blockquote {
+    border-color: midnightblue;
+}
+
+.right-quote {
+    border-left: none;
+    border-right: 5px solid;
+    padding-right: 1.5rem;
+}
+
+.pillars-background {
+    width: 100%;
+    padding: 5%;
+    background-color: #EEEEEE;
+
+}
+
+
+.pillars-background-pillars {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.team-title,
+.member-eligibility-title,
+.become-member-title,
+.boardOfDirectors,
+.title,
+.membership-process-title,
+.lets-connect-title,
+.safety-title,
+.providing-security-title,
+.apprenticeship-title,
+.tutoring_process-title {
+    width: 100%;
+    font-size: 200%;
+}
+
+.title,
+.pillars-title,
+.boardOfDirectors,
+.team-title,
+.become-member-title,
+.member-eligibility-title,
+.membership-process-title,
+.lets-connect-title,
+.safety-title,
+.providing-security-title {
+    position: relative;
+    display: block;
+    font-size: 2.5rem;
+}
+
+
+.title1 {
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+
+.purpose-title {
+    font-family: sans-serif;
+    color: #314572;
+    padding: 0;
+    width: 100%;
+    font-size: 2rem;
+}
+
+
+
+.block1 {
+    width: 100%;
+    float: left;
+}
+
+
+
+/*.p-head1 {
+
+    font-size: 200%;
+}
+
+.p-head2 {
+
+
+    font-size: 200%;
+}*/
+
+
+.para1 {
+
+    width: 100%;
+}
+
+.purpose-para.para2 {
+    width: 100%;
+    padding-left: 30%;
+}
+
+
+
+
+
+.wBox {
+    padding: 5%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.pillar-para1 {
+    width: 100%;
+    padding: 10%;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+
+
+.pillar {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.different_background {
+
+    margin: 10%;
+    padding: 10%;
+    padding-bottom: 15%;
+
+
+}
+
+.different-title {
+
+    width: 100%;
+
+}
+
+.diff-title {
+
+    padding: 2%;
+    color: #314572;
+    font-size: 200%;
+}
+
+.diff-content {
+    width: 100%;
+    padding-bottom: 5%;
+    padding: 5%;
+
+}
+
+.diff-content1 {
+    margin-right: 15%;
+
+}
+
+.diff-content2 {
+
+    margin-left: 25%;
+}
+
+
+.our-values-background {
+    background-color: #314572;
+    width: 100%;
+    color: white;
+    padding: 5%;
+}
+
+.value-title {
+    width: 100%;
+    border-right: 2px solid;
+    border-color: white;
+    height: 100%;
+    text-align: right;
+    font-size: 250%;
+    padding-right: 10%;
+}
+
+.borderless {
+    border: 0px;
+}
+
+.leftTable {
+    padding: 5%;
+    font-size: 130%;
+}
+
+.rightTable {
+    padding: 5%;
+}
+
+
+
+
+/*small screen code starts here*/
+
+@media only screen and (max-width: 768px) {
+
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+
+    .purpose-background {
+        padding: 10%;
+        width: 100%;
+
+    }
+
+    .purpose-background2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .why-here {
+        width: 100%;
+    }
+
+    .pillars-background-pillars {
+
+        grid-template-columns: 100%;
+    }
+
+    i.fas.fa-map-marker-alt {
+        font-size: 36px;
+    }
+
+    .title {
+        font-size: 200%;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .title1 {
+        width: 100%;
+        font-size: 100%;
+        text-align: center;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+
+    .purpose-para.para1,
+    .purpose-para.para2 {
+        display: block;
+        margin: 0;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .pillar-para1 {
+
+        width: 100%;
+        padding: 5%;
+        font-weight: bold;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .wBox {
+        width: 100%;
+        position: relative;
+        height: 100%;
+
+    }
+
+    .col-sm-3 {
+        position: relative;
+    }
+
+
+
+    .pillars-background-pillars {
+        width: 100%;
+        background-color: #EEEEEE;
+
+    }
+
+    .diff-content2 {
+
+        margin-left: 10%;
+    }
+
+
+
+    /* .our-values-background {
+        background-color: #314572;
+        width: 100%;
+        color: white;
+        padding: 5%;
+    }
+
+    .value-title {
+        border-right: none;
+        border-bottom: 2px solid;
+        border-color: white;
+        width: 100%;
+        text-align: right;
+        font-size: 300%;
+        padding-right: 10%;
+    }
+
+    td {
+        width: ;
+    }
+
+    .leftTable {
+        width: 10%
+    }
+
+    .rightTable {
+        width: 100%;
+    }
+
+    /*our team CSS*/
+
+    .team-about,
+    .team-para {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+
+}
+
+
+
+/*@media only screen and (min-width: 2048px) {
+    .logo {
+        margin-left: 40%;
+    }
+
+    .nav-item {
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .title {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .title1 {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .p-head2 {
+        text-align: center;
+    }
+
+    .para1,
+    .para2 {
+        display: block;
+        margin: 0;
+        text-align: left;
+        width: 100%;
+    }
+
+
+}*/

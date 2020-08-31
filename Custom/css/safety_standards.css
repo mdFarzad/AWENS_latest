@@ -1,0 +1,62 @@
+/*.safetyStandards-head-div {
+    padding: 10%;
+}*/
+
+.safetyStandard-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 10%;
+    grid-gap: 1em;
+
+}
+
+.safety-title {
+    width: 100%;
+    font-size: 150%;
+    text-align: right;
+}
+
+.safetyStandard-update {
+    padding: 2% 0 0 0%;
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.providing-security-para {
+    padding: 5% 10% 5% 10%;
+    font-weight: 100;
+    font-size: 120%;
+}
+
+
+.plan-title {
+    width: 100%;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+.plan-list {
+    width: 100%;
+    padding-top: 3%;
+    font-weight: 100;
+    font-size: 120%;
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .safety-title {
+
+        font-size: 130%;
+
+    }
+
+    .safetyStandard-update {
+        text-align: left;
+        padding-left: 0;
+        font-size: 120%;
+        letter-spacing: 2px;
+    }
+
+
+}
